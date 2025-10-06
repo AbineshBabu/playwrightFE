@@ -1,0 +1,23 @@
+{
+    "rave":{
+        "formatOptions":{
+            "snippetInterface":"async-await"
+        },
+        "paths":["tests/feature"],
+        "dryRun":false,
+        "tags":"@P1",
+        "require":["tests/stepDefinition/*.js","config/cucumber.conf.js"],
+        "format": ["json:reports/cucumber_report.json"]
+    },
+    "local":{
+        "formatOptions":{
+            "snippetInterface":"async-await"
+        },
+        "paths":["tests/feature"],
+        "dryRun":false,
+        "tags":"@P2",
+        "require":["tests/stepDefinition/*.js","config/cucumber.conf.js"],
+        "format": ["json:reports/cucumber_report.json"]
+    }
+    
+}
