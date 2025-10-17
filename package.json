@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "rave": "NODE_ENV='test' cucumber-js --profile rave ; node generateReport.js",
-    "local": "NODE_ENV='test' cucumber-js --profile local && node generateReport.js"
+    "local": "NODE_ENV='test' cucumber-js --profile local ; node generateReport.js"
   },
   "keywords": [],
   "author": "",
