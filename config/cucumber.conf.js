@@ -12,7 +12,7 @@ const config = require('./env.config')[process.env.NODE_ENV || 'test'];
 
 BeforeAll(async function () {
   global.browser = await chromium.launch({
-    headless: false,
+    headless: true,
     slowMo: 500,
     args: ['--window-size=2560,1440']
   });
