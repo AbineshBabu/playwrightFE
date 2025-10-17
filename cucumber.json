@@ -1,5 +1,5 @@
 {
-    "rave":{
+    "test":{
         "formatOptions":{
             "snippetInterface":"async-await"
         },
@@ -9,7 +9,7 @@
         "require":["tests/stepDefinition/*.js","config/cucumber.conf.js"],
         "format": ["json:reports/cucumber_report.json"]
     },
-    "local":{
+    "acc":{
         "formatOptions":{
             "snippetInterface":"async-await"
         },

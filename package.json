@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "rave": "NODE_ENV='test' cucumber-js --profile rave ; node generateReport.js",
-    "local": "NODE_ENV='test' cucumber-js --profile local ; node generateReport.js"
+    "test": "NODE_ENV='test' cucumber-js --profile test ; node generateReport.js",
+    "acc": "NODE_ENV='accp' cucumber-js --profile acc ; node generateReport.js" 
   },
   "keywords": [],
   "author": "",
